@@ -4,8 +4,12 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        spartan: ['League Spartan', 'sans-serif'],
+        roboto: ['Roboto Condensed', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
-
